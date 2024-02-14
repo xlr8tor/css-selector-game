@@ -1,0 +1,32 @@
+<p>
+  Sometimes you want to select multiple elements inside the same parent. The
+  universal selector is well adept for this use case.
+</p>
+<p>
+  For instance, all the elements within
+  <code>&lt;ul class="navbar"&gt;</code> can be selected using the selector
+  <code>ul.navbar *</code>. As a refresher, the <code>*</code> at the end is the
+  universal CSS selector for selecting "All elements within the ul element"
+</p>
+
+--
+<ul class="footer">
+  <li>
+    <a href="#">don't</a>
+  </li>
+  <li>
+    <a href="#">select</a>
+  </li>
+  <li>
+    <a href="#">me</a>
+  </li>
+</ul>
+
+<ul class="navbar">
+  <li>
+    <a href="#">select</a>
+  </li>
+  <li>
+    <a href="#">me</a>
+  </li>
+</ul>
