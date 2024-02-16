@@ -1,0 +1,4 @@
+{
+  "keys": [">"],
+  "selector": ".footer .footer-item > .footer-item__link"
+}

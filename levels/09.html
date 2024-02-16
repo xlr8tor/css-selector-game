@@ -1,0 +1,23 @@
+<p>
+  The CSS descendant selector can be used to select nested elements within a
+  parent element regardless of the level of nesting. It is represented as a
+  white space between <em>two or more</em> selectors without a combinator.
+</p>
+<p>
+  For instance, <code>div p</code> can be used to select all the
+  <code>&lt;p&gt;</code> in
+  <code
+    >&lt;div&gt;&lt;p&gt;Hello&lt;/p&gt;&lt;p&gt;World&lt;/p&gt;&lt;/div&gt;</code
+  >
+</p>
+
+--
+<div class="section">
+  <p>I'm going to be selected</p>
+  <p>And me too</p>
+  <div>
+    <span>
+      <p>And me all the way here</p>
+    </span>
+  </div>
+</div>
